@@ -1,0 +1,92 @@
+mascota
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de mi Mascota</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+
+        .pet-info {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .pet-info img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .pet-info .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .pet-info .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Mascota</h1>
+    </header>
+
+    <div class="container">
+        <div class="pet-info">
+            <img src="https://blog.felinus.cl/wp-content/uploads/2021/12/gato-carey-1.jpg" alt="Mia">
+            <h2>Mia</h2>
+            <p><strong>Edad:</strong> 5 años</p>
+            <p><strong>Raza:</strong> Gato</p>
+            <p><strong>Color:</strong> Carey</p>
+            <p><strong>Hobby:</strong> Cazar aves</p>
+            <a href="#" class="btn">Ver más información</a>
+        </div>
+    </div>
+
+</body>
+</html>
